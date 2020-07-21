@@ -12,7 +12,7 @@ public class ClientController {
 
     @RequestMapping("/")
     public ResponseEntity<String> hello() {
-    return new ResponseEntity<>("deploy ok", HttpStatus.OK);
+    return new ResponseEntity<>("deploy master ok", HttpStatus.OK);
 }
 
 }
